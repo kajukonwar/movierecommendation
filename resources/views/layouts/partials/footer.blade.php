@@ -1,32 +1,4 @@
-  <!-- pop-up-box -->  
-    <script src="{{asset('js/vendor/template/jquery.magnific-popup.js')}}" type="text/javascript"></script>
-  <!--//pop-up-box -->
-  <div id="small-dialog" class="mfp-hide">
-    <iframe src="https://player.vimeo.com/video/164819130?title=0&byline=0"></iframe>
-  </div>
-  <div id="small-dialog1" class="mfp-hide">
-    <iframe src="https://player.vimeo.com/video/148284736"></iframe>
-  </div>
-  <div id="small-dialog2" class="mfp-hide">
-    <iframe src="https://player.vimeo.com/video/165197924?color=ffffff&title=0&byline=0&portrait=0"></iframe>
-  </div>
-  <script>
-    $(document).ready(function() {
-    $('.w3_play_icon,.w3_play_icon1,.w3_play_icon2').magnificPopup({
-      type: 'inline',
-      fixedContentPos: false,
-      fixedBgPos: true,
-      overflowY: 'auto',
-      closeBtnInside: true,
-      preloader: false,
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-zoom-in'
-    });
-                                    
-    });
-  </script>
-<!-- //Latest-tv-series -->
+
 <!-- footer -->
   <div class="footer">
     <div class="container">

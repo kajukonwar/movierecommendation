@@ -21,35 +21,16 @@
                   <li>
                   <div class="col-sm-4">
                     <ul class="multi-column-dropdown">
-                      <li><a href="genres.html">Action</a></li>
-                      <li><a href="genres.html">Biography</a></li>
-                      <li><a href="genres.html">Crime</a></li>
-                      <li><a href="genres.html">Family</a></li>
-                      <li><a href="horror.html">Horror</a></li>
-                      <li><a href="genres.html">Romance</a></li>
-                      <li><a href="genres.html">Sports</a></li>
-                      <li><a href="genres.html">War</a></li>
+
+                      @foreach($genres_global as $genre_global)
+                          
+                      <li><a href="{{url('movies/genre', [$genre_global->internal_name])}}">{{$genre_global->name}}</a></li>
+                      
+                      @endforeach
+                      
                     </ul>
                   </div>
-                  <div class="col-sm-4">
-                    <ul class="multi-column-dropdown">
-                      <li><a href="genres.html">Adventure</a></li>
-                      <li><a href="comedy.html">Comedy</a></li>
-                      <li><a href="genres.html">Documentary</a></li>
-                      <li><a href="genres.html">Fantasy</a></li>
-                      <li><a href="genres.html">Thriller</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-4">
-                    <ul class="multi-column-dropdown">
-                      <li><a href="genres.html">Animation</a></li>
-                      <li><a href="genres.html">Costume</a></li>
-                      <li><a href="genres.html">Drama</a></li>
-                      <li><a href="genres.html">History</a></li>
-                      <li><a href="genres.html">Musical</a></li>
-                      <li><a href="genres.html">Psychological</a></li>
-                    </ul>
-                  </div>
+                  
                   <div class="clearfix"></div>
                   </li>
                 </ul>

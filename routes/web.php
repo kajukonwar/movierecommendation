@@ -10,7 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use GuzzleHttp\Exception\GuzzleException;
+
 
 Route::get('/', function () {
+
+    
     return view('index');
 });
+
+
+Route::resource('genres', 'GenreController');
+
+Route::get('movies/genre/{genre}', 'MovieController@getByGenre');
