@@ -25,10 +25,17 @@
           <li class="nav-item d-flex align-items-center">
             <a class="nav-link" href="#">A-Z list</a>
           </li>
-
-          <li class="nav-item d-flex align-items-center">
-            <a class="nav-link" href="#">Sign In</a>
-          </li>
+          @if (Route::has('login'))
+            @auth
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link" href="{{url('/home')}}">Home</a>
+            </li>
+            @else
+             <li class="nav-item d-flex align-items-center">
+              <a class="nav-link" href="{{url('/login')}}">Sign In</a>
+            </li>
+            @endauth
+           @endif
 
           <li class="nav-item dropdown d-flex   align-items-center">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
