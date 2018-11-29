@@ -1,90 +1,73 @@
-
-<!-- footer -->
-  <div class="footer">
-    <div class="container">
-      <div class="w3ls_footer_grid">
-        <div class="col-md-6 w3ls_footer_grid_left">
-          <div class="w3ls_footer_grid_left1">
-            <h2>Subscribe to us</h2>
-            <div class="w3ls_footer_grid_left1_pos">
-              <form action="#" method="post">
-                <input type="email" name="email" placeholder="Your email..." required="">
-                <input type="submit" value="Send">
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 w3ls_footer_grid_right">
-          <a href="index.html"><h2>One<span>Movies</span></h2></a>
-        </div>
-        <div class="clearfix"> </div>
-      </div>
-      <div class="col-md-5 w3ls_footer_grid1_left">
-        <p>&copy; 2016 One Movies. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-      </div>
-      <div class="col-md-7 w3ls_footer_grid1_right">
-        <ul>
-          <li>
-            <a href="genres.html">Movies</a>
-          </li>
-          <li>
-            <a href="faq.html">FAQ</a>
-          </li>
-          <li>
-            <a href="horror.html">Action</a>
-          </li>
-          <li>
-            <a href="genres.html">Adventure</a>
-          </li>
-          <li>
-            <a href="comedy.html">Comedy</a>
-          </li>
-          <li>
-            <a href="icons.html">Icons</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Genres</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Videos</a></li>
         </ul>
       </div>
-      <div class="clearfix"> </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Navigation</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href="" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Kaju Konwar</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fa fa-google-plus"></i></a></li>
+          <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      </hr>
+    </div>  
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p><u><a href="">National Transaction Corporation</a></u> It's an academic project to do experiments with machine learning recommendation systems</p>
+        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="" target="_blank">Sunlimetech</a></p>
+      </div>
+      </hr>
+    </div>  
   </div>
-<!-- //footer -->
-<!-- Bootstrap Core JavaScript -->
-<script src="{{asset('js/vendor/template/bootstrap.min.js'
-)}}"></script>
-<script>
-$(document).ready(function(){
-    $(".dropdown").hover(            
-        function() {
-            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-            $(this).toggleClass('open');        
-        },
-        function() {
-            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-            $(this).toggleClass('open');       
-        }
-    );
-});
-</script>
-<!-- //Bootstrap Core JavaScript -->
-<!-- here stars scrolling icon -->
-  <script type="text/javascript">
-    $(document).ready(function() {
-      /*
-        var defaults = {
-        containerID: 'toTop', // fading element id
-        containerHoverID: 'toTopHover', // fading element hover id
-        scrollSpeed: 1200,
-        easingType: 'linear' 
-        };
-      */
-                
-      $().UItoTop({ easingType: 'easeOutQuart' });
-                
-      });
-  </script>
-<!-- //here ends scrolling icon -->
+</section>
+<!-- ./Footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="{{asset('js/vendor/owl-carousel/owl.carousel.min.js')}}"></script>
+
+<script src="{{asset('js/vendor/mixitup-v3/dist/mixitup.min.js')}}"></script>
+
+<script src="{{asset('js/vendor/jquery-bar-rating-master/dist/jquery.barrating.min.js')}}"></script>
+
+@yield('javascript')
+
 </body>
 </html>
