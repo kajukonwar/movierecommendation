@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use GuzzleHttp\Exception\GuzzleException;
+
 
 Route::get('/', 'HomeController@index');
 
@@ -24,4 +24,4 @@ Route::get('movies/genre/{genre}', 'MovieController@getByGenre');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@home')->name('home');
