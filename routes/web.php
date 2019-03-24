@@ -12,7 +12,7 @@
 */
 
 
-/*
+
 Route::get('/', 'HomeController@index');
 
 Route::post('rating', 'RatingController@store');
@@ -26,8 +26,3 @@ Route::get('movies/genre/{genre}', 'MovieController@getByGenre');
 Auth::routes();
 
 Route::get('/home', 'HomeController@home')->name('home');
-*/
-Route::get('/', function() {
-
-    return "Development in Progress";
-});

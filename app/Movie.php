@@ -11,7 +11,7 @@ class Movie extends Model
 
     public $timestamps = false;
 
-    private $rec_url = 'http://127.0.0.1:5000/recommendations';
+    private $rec_url = 'http://webizone12.pythonanywhere.com/recommendations';
 
     public function getRecommended($user_id)
     {   
