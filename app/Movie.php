@@ -15,7 +15,7 @@ class Movie extends Model
 
     public function getRecommended($user_id)
     {   
-        $url = $this->$rec_url.'/'.$user_id.'?show=15';
+        $url = $this->rec_url.'/'.$user_id.'?show=15';
 
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $user_id);
