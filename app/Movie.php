@@ -18,7 +18,7 @@ class Movie extends Model
         $url = $this->rec_url.'/'.$user_id.'?show=15';
 
         $client = new \GuzzleHttp\Client();
-        $res = $client->request('GET', $user_id);
+        //$res = $client->request('GET', $user_id);
 
     }
 
